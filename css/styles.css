@@ -64,8 +64,17 @@
     margin-right: auto;
   }*/
 
+  .navbar {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
 
-
+  .offcanvas-title {
+    font-weight: 700;
+  }
   
   .logo-text {
     font-family: "Noto Serif Display", serif;
