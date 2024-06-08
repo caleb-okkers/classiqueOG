@@ -22,7 +22,7 @@
     <header class="container">
       <nav class="navbar  fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand fs-2 logo-text" href="#"
+          <a class="navbar-brand fs-2 logo-text" href="./index.html"
             >.classique</a
           >
           <button
@@ -53,68 +53,23 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="./index.html"
                     >home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">about</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    fashion
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">suits</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">essentials</a>
-                    </li>
-                    <!--<li>
-                      <hr class="dropdown-divider" />
-                    </li>-->
-                    <li>
-                      <a class="dropdown-item" href="#">accesories</a>
-                    </li>
-                  </ul>
+                  <a class="nav-link" href="./html/about.html">about</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">checkout</a>
+                  <a class="nav-link" href="./html/products.html">fashion</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">contact</a>
+                  <a class="nav-link" href="./html/checkout.html">checkout</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./html/contact.html">contact</a>
                 </li>
               </ul>
-              
-              <form id="filter-form" class="filter-form">
-                <h5 class="mt-5 mb-4">filter products</h5>
-                <div class="mb-3">
-                  <label for="priceRange" class="form-label filter-label">price range</label>
-                  <input type="range" class="form-range" min="0" max="1000" id="priceRange">
-                </div>
-                <div class="mb-3">
-                  <label class="filter-label mb-3">category</label>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="category1" value="suits">
-                    <label class="form-check-label" for="category1">suits</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="category2" value="essentials">
-                    <label class="form-check-label" for="category2">essentials</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="category3" value="accessories">
-                    <label class="form-check-label" for="category3">accessories</label>
-                  </div>
-                </div>
-                <button type="button" class="btn btn-outline-success" onclick="applyFilters()">Apply Filters</button>
-              </form>
-              
               
             </div>
   
@@ -123,7 +78,15 @@
       </nav>
     </header>
       <section class="container">
-        
+        <div class="home-img-div">
+          <img src="https://github.com/caleb-okkers/classique/blob/main/images/suit%201.jpeg?raw=true" alt="Double breasted twill suit - brown" class="home-img">
+        </div>
+        <div class="welcome-div">
+          <div class="welcome-text">
+            <h5>Welcome to .classique</h5>
+            <h3>Be bold. Be timeless.</h3>
+          </div>
+        </div>
       </section>
 
     <script src="./script/code.js"></script>
