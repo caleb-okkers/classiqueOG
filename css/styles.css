@@ -258,3 +258,8 @@
   color: rgb(111, 48, 15);
 }
 
+.about-text {
+  width: 80%;
+  text-align: center;
+  padding-top: 8rem;
+}
