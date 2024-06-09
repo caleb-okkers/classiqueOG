@@ -14,7 +14,7 @@ let products = JSON.parse(localStorage.getItem('products')) ?
                 id: 2,
                 name: 'Brown Slim-Fit Suit 3-Piece',
                 category: 'suits',
-                Color: 'Brown',
+                color: 'Brown',
                 description: 'This brown slim-fit three-piece suit includes a blazer, waistcoat and trousers, made from a comfortable blend of 60% wool, 37% polyester and 3% elastane. This single-breasted blazer features top notch lapels, a two-button closure, a fully lined interior and double vents. Ideal for formal occasions, this suit requires dry cleaning.',
                 price: 8999.99,
                 img_url:  "https://raw.githubusercontent.com/caleb-okkers/classique/main/images/product10.webp"
