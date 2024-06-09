@@ -17,7 +17,7 @@ let products = JSON.parse(localStorage.getItem('products')) ?
                 Color: 'Brown',
                 description: 'This brown slim-fit three-piece suit includes a blazer, waistcoat and trousers, made from a comfortable blend of 60% wool, 37% polyester and 3% elastane. This single-breasted blazer features top notch lapels, a two-button closure, a fully lined interior and double vents. Ideal for formal occasions, this suit requires dry cleaning.',
                 price: 8999.99,
-                img_url:  ""
+                img_url:  "https://raw.githubusercontent.com/caleb-okkers/classique/main/images/product10.webp"
             },
             {
                 id: 3,
@@ -35,7 +35,7 @@ let products = JSON.parse(localStorage.getItem('products')) ?
                 color: 'Green',
                 description: 'This green slim-fit three-piece suit includes a blazer, waistcoat and trousers, made from a comfortable blend of 60% wool, 37% polyester and 3% elastane. This single-breasted blazer features top notch lapels, a two-button closure, a fully lined interior and double vents. Ideal for formal occasions, this suit requires dry cleaning.',
                 price: 8999.99,
-                img_url: "https://raw.githubusercontent.com/caleb-okkers/classique/main/images/product7.webp"
+                img_url: "https://raw.githubusercontent.com/caleb-okkers/classique/main/images/product%20green.webp"
             },
             {
                 id: 5,
@@ -80,7 +80,7 @@ let products = JSON.parse(localStorage.getItem('products')) ?
                 color: 'Bordeaux',
                 description: 'This bordeaux slim-fit two-piece suit includes a blazer, waistcoat and trousers, made from a blend of 73% polyester, 23% viscose and 4% elastane. The double-breasted blazer features peak lapels, six buttons, functioning buttoned cuffs, a fully lined interior and double vents. Perfect for formal occasions, this suit requires dry cleaning.',
                 price: 9999.99,
-                img_url: ""
+                img_url: "https://raw.githubusercontent.com/caleb-okkers/classique/main/images/product11.webp"
             },
 
         ]
