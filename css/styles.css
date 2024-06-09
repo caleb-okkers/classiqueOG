@@ -11,8 +11,6 @@
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    display: flex;
-    justify-content: center;
     font-size: 1rem;
   }
 
@@ -37,7 +35,7 @@
   @media (max-width: 768px) {
     .container {
       max-width: 640px;
-    },
+    }
 
   }
 
@@ -73,6 +71,7 @@
     font-weight: 500;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+    background-color: white;
   }
 
   .offcanvas-title {
@@ -150,14 +149,17 @@
     margin-bottom: 0;
   }
   
-  .filter-form .btn-outline-success {
-    color: rgb(111, 48, 15) !important;
-    border-color: rgb(111, 48, 15) !important;
-  }
-  
-  .filter-form .btn-outline-success:hover {
+  .btn-outline-success {
     background-color: rgb(111, 48, 15) !important;
     color: #fff !important;
+    border-color: rgb(111, 48, 15) !important;
+    
+  }
+  
+  .btn-outline-success:hover {
+    background-color: rgb(111, 48, 15, 0.5) !important;
+    color: rgb(111, 48, 15) !important;
+    border-color: rgb(111, 48, 15) !important;
   }
   
   .form-range {
@@ -223,7 +225,7 @@
   }
 
 .home-img-div {
-  width: 50%;
+  width: 100%;
   height: 80vh;
   padding-top: 5rem;
   display: flex;
@@ -238,7 +240,7 @@
 }
 
 .welcome-div {
-  width: 50%;
+  width: 100%;
   height: 80vh;
   padding-top: 5rem;
   display: flex;
@@ -271,7 +273,8 @@
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.about-text {
+.about-text,
+.fashion-text {
   width: 100%;
   text-align: center;
   padding-top: 4rem;
@@ -281,7 +284,8 @@
   margin: 0 auto;
 }
 
-.about-text h5 {
+.about-text h5,
+.fashion-text h5 {
   font-size: 2rem;
   font-family: "Noto Serif Display", serif;
   font-optical-sizing: auto;
@@ -297,14 +301,14 @@
   font-size: 1.5rem;
 }
 
-.about-img-container {
+/*.about-img-container {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 65vh;
   padding-top: 2rem;
   padding-bottom: 3rem;
-}
+}*/
 
 .about-img-div {
   width: 100%;
@@ -313,7 +317,65 @@
 
 .about-img {
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit: contain;
   overflow: hidden;
 }
+
+.img-col {
+  height: 80vh;
+  
+}
+
+.form-control:hover {
+  box-shadow: none !important;
+  border: 1px solid rgb(111, 48, 15);
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid rgb(111, 48, 15);
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid rgb(111, 48, 15);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  /*position: relative;*/
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+}
+
+
+
+.card-text {
+  margin: 0 0 8px;
+}
+
+.card-description{
+  display: none;width: 100%;
+
+}
+
+/*.card-description:hover {
+  display: block;
+}*/
